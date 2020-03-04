@@ -28,6 +28,7 @@ document.querySelector(".more").style.display='flex';
 btn.style.display='none';
 });
 
+
 $(document).ready(function(){
     $(".tab").click(function(){
         var buttonvalue= $(this).attr("data-filter");       
@@ -39,7 +40,7 @@ $(document).ready(function(){
             $(".tabimg").filter("." + buttonvalue).show("1000");
         }
     });
-    $(".tab").click(function(){
+    $(".sec5_tabs li").click(function(){
         $(this).addClass("active").siblings().removeClass("active");
     });
 });
