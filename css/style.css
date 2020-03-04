@@ -267,20 +267,6 @@
     box-shadow: 0 -4px white;
     background-color: #18cfab;    
 }
-
-.footer{
-    background-color: #22353f;
-    padding: 25px 0;
-    text-align: center;
-    font-family: ﻿Montserrat-Light, ﻿AdobeInvisFont, ﻿Courier;
-    font-size: 14px;
-    color: rgba(174, 174, 174, 255);
-    letter-spacing: 0.6px;
-}
-
-.footer .foot_span{
-    color: #18cfab;
-}
 .section-5{
     padding: 50px 0;
     background-color: #f8fcfe;
@@ -350,7 +336,6 @@
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-    display: none;
 }
 .section-5 .img-container .tabimg{
     width: 24%;
@@ -370,7 +355,7 @@
     text-align: center;
     color: white;
     border-top: 3px solid #18cfab;
-    padding: 33px 0;
+    padding: 34px 0;
     opacity: 0;
 }
 .section-5 .img-container .tabimg .overlay a{
@@ -413,48 +398,16 @@
     color: white;
     margin-right: 5px;
 }
+.footer{
+    background-color: #22353f;
+    padding: 25px 0;
+    text-align: center;
+    font-family: ﻿Montserrat-Light, ﻿AdobeInvisFont, ﻿Courier;
+    font-size: 14px;
+    color: rgba(174, 174, 174, 255);
+    letter-spacing: 0.6px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer .foot_span{
+    color: #18cfab;
+}

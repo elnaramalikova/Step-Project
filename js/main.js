@@ -23,11 +23,17 @@ function selectTab(e, tabId) {
 
 // LOAD MORE
 var btn = document.getElementById('loadmore');
-btn.addEventListener('click', function(e){
-document.querySelector(".more").style.display='flex';
-btn.style.display='none';
-});
+var images=document.querySelectorAll('.more .tabimg');
+for(let i=0; i<images.length; i++){  
+ images[i].style.display="none";
+btn.addEventListener('click', function(){    
+images[i].style.display='flex';
+btn.style.display='none'; 
 
+});  
+}
+
+// OUR AMAZING WORKS
 
 $(document).ready(function(){
     $(".tab").click(function(){
